@@ -61,6 +61,7 @@ export default function Navbar() {
           <Link href="/" onClick={() => setOpen(false)} className="block text-sm text-[var(--color-text-muted)]">~/notes</Link>
           <Link href="/new" onClick={() => setOpen(false)} className="block text-sm text-[var(--color-neon-green)]">+ new note</Link>
           <a href="http://localhost:3000" onClick={() => setOpen(false)} className="block text-sm text-[var(--color-text-muted)] hover:text-[var(--color-neon-cyan)]">↩ DevFolio</a>
+          <div className="pt-1 border-t border-[var(--color-border)]"><AuthButton /></div>
         </nav>
       )}
     </header>
